@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yuvraj Singh Portfolio</title>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial;
+margin:0;
+background:#f9f9f9;
+color:#333;
+}
+
+/* Background Video */
+
+#bg-video{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+filter:brightness(70%);
+}
+
+/* Header */
+
+header{
+background:linear-gradient(135deg,#1f1f1f,#444);
+color:white;
+text-align:center;
+padding:2rem;
+}
+
+header h1{
+margin:0;
+font-size:2.5rem;
+}
+
+/* Navigation */
+
+nav{
+background:#222;
+padding:0.7rem;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+/* Sections */
+
+section{
+max-width:1000px;
+margin:2rem auto;
+padding:1.5rem;
+background:rgba(255,255,255,0.9);
+border-radius:10px;
+}
+
+h2{
+border-bottom:2px solid #ddd;
+padding-bottom:5px;
+}
+
+/* Skills */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:10px;
+}
+
+.skill{
+background:#222;
+color:white;
+padding:8px 15px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* Projects */
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:1rem;
+}
+
+.card{
+background:white;
+padding:1rem;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+/* Lists */
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin:8px 0;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:1rem;
+background:#222;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Background Video -->
+
+<video autoplay muted loop id="bg-video">
+<source src="background.mp4" type="video/mp4">
+</video>
+
+<header>
+
+<h1>Yuvraj Singh</h1>
+
+<p>
+B.Tech ECE Student | Web Developer | Open Source Contributor (OpenVINO) | Computer Vision Learner | Hackathon Participant
+</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#opensource">Open Source</a>
+<a href="#hackathons">Hackathons</a>
+<a href="#certifications">Certifications</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Hi, I'm Yuvraj Singh 👋. I am a B.Tech Electronics & Communication Engineering student at Arya College of Engineering & IT.
+
+I am passionate about building technology at the intersection of software and electronics. My interests include Web Development, Computer Vision, Edge AI, and Open Source Development.
+
+I enjoy working on real-world projects, contributing to open-source software, and participating in hackathons to improve my technical and problem-solving skills.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+<div class="skill">Java</div>
+<div class="skill">C Programming</div>
+<div class="skill">Responsive Web Design</div>
+<div class="skill">Video Editing</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-grid">
+
+<div class="card">
+
+<img src="project1.jpg">
+
+<h3>Personal Portfolio Website</h3>
+
+<p>
+A responsive personal portfolio website created using HTML, CSS and JavaScript to showcase my projects and development journey.
+</p>
+
+</div>
+
+<div class="card">
+
+<a href="https://www.instagram.com/reel/DMGUFr2zog8/" target="_blank">
+<img src="project1.jpg">
+</a>
+
+<h3>Instagram Video Editing Reel</h3>
+
+<p>
+Creative cinematic reel created using professional editing techniques including color grading and speed ramping.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="opensource">
+
+<h2>Open Source Contributions</h2>
+
+<ul>
+
+<li>Learning and contributing to Open Source Projects</li>
+
+<li>Exploring Intel OpenVINO ecosystem</li>
+
+<li>Collaborating with developers in open-source communities</li>
+
+<li>Practicing Git and GitHub workflow</li>
+
+</ul>
+
+</section>
+
+<section id="hackathons">
+
+<h2>Hackathons</h2>
+
+<ul>
+
+<li>
+EY Techathon 6.0 – Qualified Round 2  
+(4667 teams selected from 183,000+ registrations)
+</li>
+
+</ul>
+
+</section>
+
+<section id="certifications">
+
+<h2>Certifications</h2>
+
+<ul>
+
+<li>IBM – Introduction to Software Engineering</li>
+
+<li>IBM – JavaScript Programming Essentials</li>
+
+<li>Coursera – Introduction to HTML, CSS & JavaScript</li>
+
+</ul>
+
+</section>
+
+<section id="resume">
+
+<h2>Resume</h2>
+
+<p><b>Name:</b> Yuvraj Singh</p>
+
+<p><b>Email:</b> yuvrajsinghdnb2006@gmail.com</p>
+
+<p><b>Phone:</b> 7892139414</p>
+
+<p><b>Location:</b> Dhanbad, Jharkhand</p>
+
+<p>
+<b>Education:</b>  
+B.Tech Electronics & Communication Engineering  
+Arya College of Engineering & IT (2025–2029)
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: <a href="mailto:yuvrajsinghdnb2006@gmail.com">yuvrajsinghdnb2006@gmail.com</a></p>
+
+<p>Phone: 7892139414</p>
+
+<p>
+LinkedIn:  
+<a href="https://www.linkedin.com/in/yuvraj-singh-b70670356" target="_blank">Profile</a>
+</p>
+
+<p>
+GitHub:  
+<a href="https://github.com/" target="_blank">GitHub Profile</a>
+</p>
+
+<p>
+Instagram:  
+<a href="https://www.instagram.com/yuvi_ditzs/" target="_blank">Instagram</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Yuvraj Singh | Portfolio</p>
+
+</footer>
+
+</body>
+</html>
